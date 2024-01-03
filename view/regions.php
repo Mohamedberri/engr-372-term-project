@@ -158,7 +158,7 @@
         // Use AJAX to send data to the server
         $.ajax({
           type: 'POST',
-          url: '',
+          url: 'localhost:81.php',
           data: { action: 'create', regionName: regionName },
           success: function (response) {
             // Update the Review Region section with the new data
